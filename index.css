@@ -1,0 +1,46 @@
+#main_text{
+    text-align: center;
+    font-size: 25px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color: rgb(99, 71, 255);
+
+}
+
+body{
+    background-color: #00539F;
+}
+
+image{
+    display: block;
+    margin:  0 auto;
+}
+
+p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+li{
+    font-size: 16px;
+    padding: 3px;
+    padding-left: 3px;
+    letter-spacing: 1px;
+}
+
+#border_style{
+    display: block;
+    margin: 0 auto;
+    background-color:#a79a50;
+    padding: 0 20px 20px 20px;
+    width: 30vw;
+    border: 5px solid black;
+
+}
+
+ul{
+    font-size: 16px;
+}
+
+html{
+    font-size: 10px;
+}
