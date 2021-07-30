@@ -1,46 +1,50 @@
-#main_text{
+#main_text {
     text-align: center;
     font-size: 25px;
-    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     color: rgb(99, 71, 255);
-
 }
 
-body{
+body {
     background-color: #00539F;
 }
 
-image{
+image {
     display: block;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
-p{
+p {
     font-size: 16px;
     letter-spacing: 1px;
 }
 
-li{
+li {
     font-size: 16px;
     padding: 3px;
     padding-left: 3px;
     letter-spacing: 1px;
 }
 
-#border_style{
+#border_style {
     display: block;
     margin: 0 auto;
-    background-color:#a79a50;
+    background-color: #a79a50;
     padding: 0 20px 20px 20px;
     width: 30vw;
     border: 5px solid black;
-
 }
 
-ul{
+ul {
     font-size: 16px;
 }
 
-html{
+html {
     font-size: 10px;
+}
+
+#list1 {
+    border: 4px dotted red;
+    margin: auto;
+    padding: 2px;
 }
