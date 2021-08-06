@@ -43,8 +43,12 @@ html {
     font-size: 10px;
 }
 
-#list1 {
+.popular {
     border: 4px dotted red;
     margin: auto;
     padding: 2px;
+}
+
+#heading {
+    color: blue;
 }
