@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+.w3-sidebar {
+    width: 120px;
+    background: rgb(75, 71, 71);
+}
+
+h1,
+h2,
+p {
+    color: white;
+    font-family: "Montserrat", sans-serif
+}
+
+li {
+    color: white;
+    font: size 18px;
+    padding: 10px;
+}
+
+#contact {
+    padding: 60px;
+}
+
+#domephoto {
+    margin: 0 -16px
+}
+
+ul {
+    list-style-image: url(/Dome_github/jaturawit-uthaisang.github.io/images/book2.png);
+}
+
+td {
+    color: white;
+}
