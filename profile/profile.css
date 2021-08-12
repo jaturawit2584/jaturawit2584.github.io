@@ -32,6 +32,7 @@ ul {
     list-style-image: url(/Dome_github/jaturawit-uthaisang.github.io/images/book2.png);
 }
 
-td {
+td,
+tr {
     color: white;
 }
