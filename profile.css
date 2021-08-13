@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+.w3-sidebar {
+    width: 120px;
+    background: rgb(75, 71, 71);
+}
+
+h1,
+h2,
+p {
+    color: white;
+    font-family: "Montserrat", sans-serif
+}
+
+li {
+    color: white;
+    font: size 18px;
+    padding: 10px;
+}
+
+#contact {
+    padding: 60px;
+}
+
+#domephoto {
+    margin: 0 -16px
+}
+
+ul {
+    list-style-image: url(/Dome_github/jaturawit-uthaisang.github.io/images/book2.png);
+}
+
+th,
+td {
+    border: 1px solid rgb(218, 200, 200);
+    border-collapse: collapse;
+    color: white;
+    padding: 30px
+}
+
+table {
+    width: 100%;
+    height: 350px;
+    border-collapse: collapse;
+}
+
+.glow {
+    font-size: 1.5vw;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffff, 0 0 70px #ffff;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffffffff, 0 0 7#ffff, 0 0 80px #ffff;
+    }
+}

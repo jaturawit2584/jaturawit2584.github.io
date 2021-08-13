@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="profile.css">
+    <title>Resume</title>
+</head>
+
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="images/domesmoke.jpg" style="width:100%">
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-home w3-xxlarge glow"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge glow"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge glow"></i>
+            <p>PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge glow"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <div id="main">
+
+        <header class="w3-container w3-padding-32 w3-center w3-black divinput" ng-app="" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Jaturawit Uthaisang</h1>
+            <p>I am a student at Khon Kaen University</p>
+            <img src="images/domesmoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+
+        </header>
+
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">About Me</h2>
+
+            <p>My name is Jaturawit Uthaisang. My nickname is Dome. <br>I am a student at the Department of Computer Engineering at Khon Kaen University. Thailand
+            </p>
+
+
+            <h2 class="w3-text-light-grey">Education History</h2>
+            <table>
+
+                <tr>
+                    <th>Year</th>
+                    <th> </th>
+                </tr>
+
+                <tr>
+                    <td>2013-2016</td>
+                    <td>Mukdahan School Sci-Math class Program</td>
+
+                </tr>
+
+                <tr>
+                    <td>2018-now</td>
+                    <td>Khonkean University Computer Engineering</td>
+
+                </tr>
+
+            </table>
+
+            <h3 class="w3-padding-10 w3-text-light-grey">My Skills</h3>
+
+            <ul>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+
+            <h3 class="w3-padding-10 w3-text-light-grey">Experiences</h3>
+
+            <ul>
+                <li>Developed Simulate ordering food for user using Python.
+                </li>
+                <li>Developed Wordthy game about English puzzle using Java language.</li>
+                <li>Developed Detection Program For retinopathy of prematurity using Python Opencv.</li>
+            </ul>
+
+
+
+        </div>
+
+        <div class="w3-padding-50 w3-content" id="photos">
+            <h2>My Photos</h2>
+
+            <div class="w3-row-padding" id="domephoto">
+                <div class="w3-half">
+                    <img src="images/dome2.jpg" style="width:100%">
+                    <img src="images/dome3.jpg" style="width:100%">
+
+                </div>
+
+                <div class="w3-half">
+                    <img src="images/dome4.jpg" style="width:100%">
+                    <img src="images/dome5.jpg" style="width:100%">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-padding-60 w3-content w3-text-grey" id="contact">
+            <h2>Contact Me</h2>
+
+            <table>
+
+                <tr>
+                    <th>Icon</th>
+                    <th> Detail</th>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></td>
+                    <td>Khon Kean,Thailand</td>
+
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></td>
+                    <td>Phone: 0946501430</td>
+
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i></td>
+                    <td>Email: jaturawit@kkumail.com</td>
+
+                </tr>
+
+
+            </table>
+
+            <p>Send me a message:</p>
+
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <footer class="w3-content w3-padding-0 w3-text-white w3-xlarge glow">
+
+            <a href="https://www.facebook.com/profile.php?id=100003971480602" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/d_037.jpg/" target="_blank"><i class="fa fa-instagram w3-hover-opacity "></i></a>
+            <a href="https://www.linkedin.com/in/jaturawit-uthaisang-681317213/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+            <!-- End footer -->
+        </footer>
+
+</body>
+
+</html>
