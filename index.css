@@ -1,12 +1,16 @@
 #main_text {
     text-align: center;
     font-size: 25px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
     color: rgb(99, 71, 255);
+}
+
+h1 {
+    font-size: 60px;
 }
 
 body {
     background-color: #00539F;
+    margin: 0;
 }
 
 image {
@@ -51,4 +55,107 @@ html {
 
 #heading {
     color: blue;
+}
+
+@media screen and (min-width: 320px) {
+    #border_style {
+        width: 60vw;
+    }
+    p,
+    a,
+    li {
+        font-size: 10px;
+    }
+    ul {
+        padding-left: 30px;
+    }
+    p#coe2019 {
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    #border_style {
+        width: 60vw;
+    }
+    p,
+    a,
+    li {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #border_style {
+        width: 60vw;
+    }
+    p,
+    a,
+    li {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #border_style {
+        width: 60vw;
+    }
+    p,
+    a,
+    li {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #main_text {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    body {
+        margin: 0;
+    }
+    p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    li {
+        font-size: 16px;
+        padding: 3px;
+        padding-left: 3px;
+        letter-spacing: 1px;
+    }
+    #border_style {
+        padding: 0 20px 20px 20px;
+        width: 30vw;
+        border: 5px solid black;
+    }
+    ul {
+        font-size: 16px;
+    }
+    html {
+        font-size: 10px;
+    }
+    .popular {
+        border: 4px dotted red;
+        margin: auto;
+        padding: 2px;
+    }
+    a {
+        font-size: 16px
+    }
 }
