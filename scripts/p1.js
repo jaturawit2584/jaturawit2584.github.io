@@ -1,7 +1,7 @@
 function showPrimes(n) {
 
     let listNumber = []
-    for (let i = 2; i < n; i++) {
+    for (let i = 2; i <= n; i++) {
         if (!isPrimes(i)) continue;
         listNumber.push(i)
     }
